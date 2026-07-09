@@ -48,6 +48,8 @@ The following files must be reviewed or replaced:
 
 - `.windsurf/rules/guidelines.md`
 - `.github/copilot-instructions.md`
+- `src/environments/environment.ts`
+- `src/environments/environment.development.ts`
 - `package.json`
 - `angular.json`
 - `tsconfig.json`
@@ -59,6 +61,10 @@ The following files must be reviewed or replaced:
 - `.gitignore` must be reviewed manually and must not be overwritten automatically
 - `.vscode/extensions.json`
 - `.vscode/settings.json`
+
+Environment files must not contain developer-specific absolute URLs.
+
+Frontend applications should prefer relative API paths when using the BFF and reverse proxy architecture.
 
 After project creation, verify the generated versions:
 

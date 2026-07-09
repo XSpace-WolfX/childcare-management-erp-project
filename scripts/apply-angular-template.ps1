@@ -66,6 +66,8 @@ function Copy-TemplateFile {
     Write-Host "Updated: $TargetRelativePath" -ForegroundColor Green
 }
 
+Copy-TemplateFile -SourceRelativePath ".windsurf\rules\guidelines.md" -TargetRelativePath ".windsurf\rules\guidelines.md"
+Copy-TemplateFile -SourceRelativePath ".github\copilot-instructions.md" -TargetRelativePath ".github\copilot-instructions.md"
 Copy-TemplateFile -SourceRelativePath "package.template.json" -TargetRelativePath "package.json"
 Copy-TemplateFile -SourceRelativePath "angular.template.json" -TargetRelativePath "angular.json"
 Copy-TemplateFile -SourceRelativePath "tsconfig.template.json" -TargetRelativePath "tsconfig.json"

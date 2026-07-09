@@ -36,7 +36,7 @@ The following files must be reviewed or replaced:
 - `prettier.config.js`
 - `.editorconfig`
 - `.prettierignore`
-- `.gitignore`
+- `.gitignore` must be reviewed manually and must not be overwritten automatically
 - `.vscode/extensions.json`
 - `.vscode/settings.json`
 

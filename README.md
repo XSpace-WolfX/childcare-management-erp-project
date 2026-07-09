@@ -1,1 +1,0 @@
-# childcare-management-erp-project

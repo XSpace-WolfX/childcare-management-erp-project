@@ -18,14 +18,14 @@ This includes:
 
 ## Current frontend tooling baseline
 
-| Tool        | Version                                            |
-| ----------- | -------------------------------------------------- |
-| Node.js     | Angular 22 compatible LTS version                  |
-| npm         | version provided with the selected Node.js version |
-| Angular CLI | 22.x                                               |
-| TypeScript  | Angular 22 compatible                              |
-| ESLint      | Angular 22 compatible                              |
-| Prettier    | shared project version                             |
+| Tool        | Version                      |
+| ----------- | ---------------------------- |
+| Node.js     | 24.x LTS                     |
+| npm         | version bundled with Node 24 |
+| Angular CLI | 22.x                         |
+| TypeScript  | Angular 22 compatible        |
+| ESLint      | Angular 22 compatible        |
+| Prettier    | shared project version       |
 
 ## Rules
 

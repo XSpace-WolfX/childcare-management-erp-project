@@ -1,5 +1,5 @@
 {
-  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "$schema": "https://json.schemastore.org/angular-cli.json",
   "version": 1,
   "cli": {
     "packageManager": "npm",
@@ -7,7 +7,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "angular-enterprise-reference": {
+    "__PROJECT_NAME__": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -16,7 +16,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "__PROJECT_PREFIX__",
       "architect": {
         "build": {
           "builder": "@angular/build:application",
@@ -60,10 +60,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-enterprise-reference:build:production"
+              "buildTarget": "__PROJECT_NAME__:build:production"
             },
             "development": {
-              "buildTarget": "angular-enterprise-reference:build:development"
+              "buildTarget": "__PROJECT_NAME__:build:development"
             }
           },
           "defaultConfiguration": "development"

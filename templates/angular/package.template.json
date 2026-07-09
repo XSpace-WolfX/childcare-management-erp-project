@@ -1,5 +1,5 @@
 {
-  "name": "angular-enterprise-reference",
+  "name": "__PROJECT_NAME__",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
